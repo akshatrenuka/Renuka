@@ -4,16 +4,9 @@ import java.util.Scanner;
 
 public class HashMapInJava {
     public static void main(String arg[])
-
-
-
     {
-
         Scanner userInput = new Scanner(System.in);
         int size;
-
-
-
         Map<String ,Long> myDir = new HashMap<String, Long>();
         for(int i = 0; i< 3 ;i++) {
 
@@ -30,16 +23,9 @@ public class HashMapInJava {
             }
         }
 
-
-
-
         System.out.println("Enter name to get the phone number from phone book : ");
         for(int j=0; j<3; j++)
 
-
-
         System.out.println(myDir.get(userInput.next()));
-
-
     }
-}
+
